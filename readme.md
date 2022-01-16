@@ -9,7 +9,7 @@ Whatever you do between the request and response is up to you. Using this starte
 
 Clone repo:
 ```bash
-git clone https://github.com/heyharmon/firebase-functions-express-starter.git [project-name]
+git clone https://github.com/heyharmon/firebase-functions-starter.git [project-name]
 ```
 
 Open /functions:
