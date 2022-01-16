@@ -31,21 +31,16 @@ Documentation: [Firebase CLI Commands](https://firebaseopensource.com/projects/f
 
 ## Serve Locally
 
-Serve Locally - **Without** a connected [Firebase Project](https://firebase.google.com/)
-
 ```bash
-firebase emulators:start
+npm run serve
 ```
-
-Serve Locally - **With** a connected Firebase Project
-
-```bash
-firebase serve
-```
+This runs: *"firebase emulators:start --only functions"*
 
 ## Connect Firebase Project
 
-Log into Firebase
+Create a [Firebase Project](https://firebase.google.com/)
+
+Then, authenticate with Firebase from the CLI:
 ```bash
 firebase login
 ```
@@ -55,8 +50,10 @@ Documentation: [CLI Authentication](https://firebase.google.com/docs/cli#sign-in
 ## Deploy to Firebase
 
 ```bash
-firebase deploy --only functions
+npm run deploy
 ```
+This runs: *"firebase deploy --only functions"*
+
 Documentation: [Function Deployment](https://firebase.google.com/docs/functions/manage-functions)
 
 
