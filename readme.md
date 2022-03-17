@@ -44,7 +44,7 @@ Then, authenticate with Firebase from the CLI:
 ```bash
 firebase login
 ```
-If you revieve "Invalid authentication credentials" error, run "firebase logout" then "firebase login" again to refresh your credentials.
+ATTENTION: If you receive "Invalid authentication credentials" error, run "firebase logout" then "firebase login" again to refresh your credentials.
 
 Documentation: [CLI Authentication](https://firebase.google.com/docs/cli#sign-in-test-cli)
 
@@ -54,6 +54,8 @@ Documentation: [CLI Authentication](https://firebase.google.com/docs/cli#sign-in
 npm run deploy
 ```
 This runs: *"firebase deploy --only functions"*
+
+ATTENTION: If your functions are already deployed and you change the export definition in index.js (e.g., "exports.browser"), Firebase will ask you if you want to delete the old function in Firebase while deploying the new definition. This is okay.
 
 Documentation: [Function Deployment](https://firebase.google.com/docs/functions/manage-functions)
 
