@@ -66,18 +66,18 @@ Below is the default structure. It's great for small projects with just a couple
 ```bash
 firebase-functions-express-starter
  +- .firebaserc      # Config for switching between projects
- |				     # using 'firebase use'
+ |		     # using 'firebase use'
  |
  +- firebase.json    # Describes properties for your project
  |
  +- functions/       # Directory containing Cloud Functions
-   |			     # or Express app in our case
+   |		     # or Express app in our case
    |
    +- controller.js  # Express controller where you will
-   |				 # handle requests
+   |		     # handle requests
    |
    +- index.js       # Main source file for your project where
-   |			     # Express is hooked up to Firebase Functions
+   |		     # Express is hooked up to Firebase Functions
    |
    +- routes.js      # Where Express routes are setup
 ```
