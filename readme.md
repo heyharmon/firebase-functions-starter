@@ -44,6 +44,7 @@ Then, authenticate with Firebase from the CLI:
 ```bash
 firebase login
 ```
+If you revieve "Invalid authentication credentials" error, run "firebase logout" then "firebase login" again to refresh your credentials.
 
 Documentation: [CLI Authentication](https://firebase.google.com/docs/cli#sign-in-test-cli)
 
